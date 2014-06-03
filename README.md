@@ -3,7 +3,7 @@ Dynamic-Search
 
 A dynamic input box that lists search queries from JSON file.
 
-Notes: This was a snippet of code made by Dan Donald, Dan Davies and modified by myself.
+Notes: This was a snippet of code made by Dan Donald and Dan Davies, then modified by myself.
 
 
 Future ideas
