@@ -17,7 +17,7 @@ $(function(){
         	// Get the JSON file along with the search term, Call the function
         	// The data variable in the function is the echo json_encode($results) from the results.php
         	// This outputs and array which is outputted by the following JS
-            $.getJSON('/results.php?','search='+searchTerm,function(data) {
+            $.getJSON('results.php?','search='+searchTerm,function(data) {
 
             	console.log(data);
 

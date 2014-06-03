@@ -5,7 +5,9 @@
 $search = $_GET['search'];
 
 // Get the file where the JSON is
-$filename = $_SERVER['DOCUMENT_ROOT'] .'/test.json';
+// If needed document Root would use
+// $filename = $_SERVER['DOCUMENT_ROOT'] . '/test.json';
+$filename = 'test.json';
 
 // Reads entire file into a string
 $data = file_get_contents($filename);
