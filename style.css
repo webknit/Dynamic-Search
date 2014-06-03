@@ -1,0 +1,59 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.main-body {
+	margin: 0 auto;
+	max-width: 600px;
+	padding: 10px;
+}
+
+#results {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+fieldset,
+#search {
+	border: none;
+	padding: 0;
+}
+
+#search {
+	background: #D8544B;
+	color: #ffffff;
+	font-size: 25px;
+	height: 50px;
+	padding: 3%;
+	width: 94%;
+}
+
+#submit {
+	margin-top: 10px;
+}
+
+#results {
+	margin-top: 10px;
+}
+
+#results li {
+	overflow: hidden;
+	border: 1px solid #e5e5e5;
+	padding: 20px;
+}
+
+#results img {
+	float: left;
+	width: 100px;
+	margin-right: 20px;
+}
+
+#results h2 {
+	margin: 10px 0;
+}
+
+#results p {
+	margin: 0 0 5px;
+}
+
